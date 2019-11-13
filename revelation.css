@@ -1,0 +1,146 @@
+*{
+	/*border: 1px solid red;*/
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.whole {
+	margin: 0;
+	padding: 0;
+}
+.first {
+	padding: 0;
+	background-color: purple;
+	text-align: right;
+	margin: 0;
+}
+.first ul li {
+	margin: 1px 1px;
+	list-style-type: none;
+	display: inline;
+}
+.first li a {
+	color: white;
+	text-align: center;
+	border-right: 2px solid white;
+	text-decoration: none;
+}
+.first li a:hover {
+		text-decoration: overline;
+		text-decoration-color: blue;
+}
+.second {
+	width: 100%;
+	height: 100px;
+	padding: 20px 10px;
+	display: inline;
+}
+.head {
+	width: 20%;
+	float: left;
+	line-height: 0.5;
+	padding: 0;
+	display: inline-block;
+}
+.ss {
+	padding: 0;
+	float: right;
+	width: 8 0%;
+	text-align: right;
+}
+.ss ul li {
+	list-style-type: none;
+	display: inline;
+}
+.ss li a {
+	color: black;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-align: center;
+}
+.ss li a:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.third {
+	width: 100%;
+	padding: 1px 1px;
+	height: 200px;
+}
+.ft {
+	width: 50%;
+	float: left;
+}
+.st {
+	width: 50%;
+	float: right;
+}
+.st button {
+	width: 150px;
+	height: 30px;
+	background-color: purple;
+}
+.st a {
+	text-decoration: none;
+	color: white;
+}
+.fourth {
+	width: 100%;
+	height: 25%;
+	display: inline-flex;
+	padding: 0;
+	margin: 1px 0;
+}
+.ff {
+	width: 20%;
+	margin: 0 20px;
+	text-align: center;
+}
+.sf {
+	width: 20%;
+	margin: 0 20px;
+	text-align: center;
+}
+.tf {
+	width: 20%;
+	margin: 0 20px;
+	text-align: center;
+}
+.fof {
+	width: 20%;
+	margin: 0 20px;
+	text-align: center;
+}
+.fifth {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	line-height: 1.5;
+}
+.sixth{
+	width: 100%;
+	height: 200px;
+	display: inline-flex;
+	padding: 0;
+}
+.fis {
+	width: 20%;
+	margin: 0 20px;
+	text-align: left;
+}
+.ses {
+	width: 20%;
+	margin: 0 20px;
+	text-align: left;
+}
+.ths {
+	width: 20%;
+	margin: 0 20px;
+	text-align: left;
+}
+.fos {
+	width: 20%;
+	margin: 0 20px;
+	text-align: left;
+}

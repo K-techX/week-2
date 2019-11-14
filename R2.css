@@ -1,0 +1,74 @@
+@media only screen and (max-width: 855px) {
+  body {
+    font-size: 10px;
+  }
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.top {
+	padding: 40px;
+	color: white;
+	background-color: lightblue;
+}
+.head {
+	width: 100%;
+	display: inline-flex;
+}
+.h1 {
+	width: 20%;
+	line-height: 0;
+}
+.h2 {
+	width: 80%;
+	text-align: right;
+}
+.h2 ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+}
+.h2 li a {
+	color: white;
+	text-decoration: none;
+}
+.h2 li a:hover {
+		text-decoration: overline;
+		text-decoration-color: blue;
+}
+.form div {
+	width: 50%;
+	display: inline-flex;
+}
+
+.middle {
+	text-align: center;
+	padding: 40px;
+}
+.line {
+	text-decoration-line: overline;
+	text-decoration-color: lightblue;
+}
+.ag {
+	line-height: 0;
+}
+.box p {
+	width: 20%;
+	border: 1px solid lightblue;
+	padding: 1%;
+	margin: 0 auto;
+	color: lightblue;
+}
+.bottom {
+	padding: 20px;
+	text-align: center;
+	padding-bottom: 0;
+	background-color: black;
+	color: white;
+}
+.bottom p {
+	margin-bottom: 0;
+}

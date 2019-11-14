@@ -1,0 +1,150 @@
+@media only screen and (max-width: 1028px) {
+  body {
+    font-size: 15px;
+  }
+}
+*{
+	/*border: 1px solid red;*/
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.first {
+	background-color: purple;
+	text-align: right;
+}
+.first ul li {
+	list-style-type: none;
+	display: inline;
+	border-right: 2px solid white;
+	padding-right: 5px;: 
+}
+.first li a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.first li a:hover {
+		text-decoration: overline;
+		text-decoration-color: blue;
+}
+.second {
+	width: 100%;
+	padding: 30px 10px;
+	display: inline;
+}
+.head {
+	width: 20%;
+	float: left;
+	line-height: 0.5;
+	padding: 0 10px;
+	display: inline;
+}
+.ss {
+	padding: 20px 0 0 0;
+	float: right;
+	width: 70%;
+	text-align: right;
+}
+.ss ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 5px 10px;
+}
+.ss li a {
+	color: black;
+	
+	text-decoration: none;
+	text-align: center;
+}
+.ss li a:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+.third {
+	width: 100%;
+	padding: 10px;
+	display: inline-flex;
+	background-color: lightgrey;
+}
+.ft {
+	width: 50%;					
+}
+.ft button {
+	width: 150px;
+	height: 30px;
+	background-color: purple;
+	border-radius: 10px;
+}
+.ft a {
+	text-decoration: none;
+	color: white;
+}
+.fourth {
+	width: 100%;
+	display: inline-flex;
+	padding: 10px;
+	margin: 1px 0;
+}
+.ff {
+	width: 25%;
+	margin: 0 20px;
+	text-align: center;
+}
+.fifth {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	line-height: 1.5;
+}
+.sixth{
+	width: 100%;
+	display: inline-flex;
+	padding: 10px;
+}
+.fis {
+	width: 25%;
+	margin: 0 20px;
+	text-align: left;
+}
+.footer {
+	background-color: black;
+}
+.down {
+	width: 100%;
+	display: inline-flex;
+	padding: 5px;
+	text-align: center;
+}
+.fd {
+	width: 25%;
+	margin: 5px 10px;
+	text-align: left;
+	color: white;
+}
+.fd ul {
+	padding: 0;
+}
+.fd ul li {
+	list-style-type: none;
+	text-align: left;
+}
+.fd input {
+	padding: 5px;
+}
+.foot {
+	width: 100%;
+	display: inline-flex;
+	color: white;
+}
+.f1 {
+	text-align: left;
+	width: 50%;
+	padding: 5px;
+}
+.f2 {
+	text-align: right;
+	width: 50%;
+	padding: 5px;
+}

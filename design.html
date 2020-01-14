@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<title>Design</title>
+</head>
+<body>
+	<div id="container">
+		<form  name="alm" action="#" method="post" onSubmit="call();">
+			<fieldset>
+			<legend>User Information</legend>
+			<label for="name">Name:* </label>
+	        <input type="text" value=""  id="siv" name="siv">
+	        <br><br>
+	        <label for="dob">Date Of Birth:* </label>
+	        <input type="date" value=""  id="date" name="date">
+	        <br><br>
+	        <input type="submit" value="submit" >
+	        </fieldset>
+	        <script type="text/javascript">
+				function call() {
+				var siv = document.getElementById("siv").value;
+				var date = document.getElementById("date").value;
+				alert(" Hi " + siv + ",you were born on the " + date);
+				}
+			</script>
+	    </form>
+	</div>
+</body>
+	
